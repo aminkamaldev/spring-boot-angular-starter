@@ -12,8 +12,13 @@
 		<module>frontend</module>
 	</modules>
 
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+	<name>FrontToBack</name>
+	<description>Stater project for Spring Boot Angular</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
