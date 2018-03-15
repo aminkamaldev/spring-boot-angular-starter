@@ -2,14 +2,19 @@
 Projet d'initialisation d'une application avec un backend spring boot et un frontend Angular
 
 
-# build
+## build production
 
-mvn clean install
-java -jar .\backend\target\sbaback-0.0.1-SNAPSHOT.jar
+> mvn clean install
+
+> java -jar .\backend\target\sbaback-0.0.1-SNAPSHOT.jar
 
 ## build dev
 pour beneficier de l'autorelaod
+
 sur le backend :
-mvn spring-boot: run
+
+> mvn spring-boot: run
+
 sur le frontend:
-ng serve
+
+> ng serve
